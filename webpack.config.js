@@ -6,7 +6,7 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		path: path.resolve(__dirname, 'build'),
-		filename: minify ? 'react-infinsity.min.js' : 'react-infinity.js',
+		filename: minify ? 'react-infinity.min.js' : 'react-infinity.js',
 		library: 'ReactInfinity',
 		libraryTarget: 'umd'
 	},
