@@ -1,0 +1,38 @@
+{
+  "name": "react-infinity",
+  "version": "0.0.1",
+  "description": "Simple infinite scrolling for React",
+  "main": "build/react-infinity.js",
+  "scripts": {
+    "build": "webpack && webpack -p --minify",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahagnaharonian/react-infinity.git"
+  },
+  "keywords": [
+    "react",
+    "infinite",
+    "scrolling",
+    "infinity",
+    "lazy",
+    "load"
+  ],
+  "author": "Vahagn Aharonian <vahagn.aharonian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vahagnaharonian/react-infinity/issues"
+  },
+  "homepage": "https://github.com/vahagnaharonian/react-infinity#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.11"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
