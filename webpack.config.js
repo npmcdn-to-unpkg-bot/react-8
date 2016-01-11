@@ -6,8 +6,8 @@ module.exports = {
 	entry: './src/index.js',
 	output: {
 		path: path.resolve(__dirname, 'build'),
-		filename: minify ? 'react-infinity.min.js' : 'react-infinity.js',
-		library: 'ReactInfinity',
+		filename: minify ? 'react-8.min.js' : 'react-8.js',
+		library: 'React8',
 		libraryTarget: 'umd'
 	},
 	externals: [

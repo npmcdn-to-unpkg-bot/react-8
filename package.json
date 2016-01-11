@@ -1,8 +1,8 @@
 {
-  "name": "react-infinity",
+  "name": "react-8",
   "version": "0.0.1",
   "description": "Simple infinite scrolling for React",
-  "main": "build/react-infinity.js",
+  "main": "build/react-inf.js",
   "scripts": {
     "build": "webpack && webpack -p --minify",
     "watch": "webpack -w"
@@ -17,14 +17,16 @@
     "scrolling",
     "infinity",
     "lazy",
-    "load"
+    "load",
+    "inf",
+    "8"
   ],
   "author": "Vahagn Aharonian <vahagn.aharonian@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vahagnaharonian/react-infinity/issues"
+    "url": "https://github.com/vahagnaharonian/react-8/issues"
   },
-  "homepage": "https://github.com/vahagnaharonian/react-infinity#readme",
+  "homepage": "https://github.com/vahagnaharonian/react-8#readme",
   "devDependencies": {
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",

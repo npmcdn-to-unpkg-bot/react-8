@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactInfinity"] = factory(require("react"));
+		exports["React8"] = factory(require("react"));
 	else
-		root["ReactInfinity"] = factory(root["React"]);
+		root["React8"] = factory(root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_1__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
