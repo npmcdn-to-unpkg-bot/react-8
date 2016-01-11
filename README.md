@@ -10,7 +10,7 @@ Simple, lightweight, universal component for infinite scrolling.
 
 ```javascript
 import React from 'react';
-import Infinity from 'react-8';
+import InfiniteScroll from 'react-8';
 
 class MyAwesomeComponent extends React.Component {
   constructor(props) {
@@ -20,11 +20,11 @@ class MyAwesomeComponent extends React.Component {
   render() {
     const {count} = this.state;
     return (
-      <Infinity
+      <InfiniteScroll
         onNewData={this.handleNewData.bind(this)}
         style={{ height: 100, overflowY: 'auto' }}>
         { this.generateContent(count) }
-      </Inf>
+      </InfiniteScroll>
     );
   }
   handleNewData() { // can also be used async, see `Usage`
