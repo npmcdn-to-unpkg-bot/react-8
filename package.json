@@ -2,7 +2,7 @@
   "name": "react-8",
   "version": "0.0.1",
   "description": "Simple infinite scrolling for React",
-  "main": "build/react-inf.js",
+  "main": "build/react-8.js",
   "scripts": {
     "build": "webpack && webpack -p --minify",
     "watch": "webpack -w"
