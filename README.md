@@ -6,6 +6,10 @@ Simple, lightweight, universal component for infinite scrolling.
 
 `npm install react-8`
 
+##Demo
+
+[See here.](http://vahagnaharonian.github.io/react-8/demo/)
+
 ##Example
 
 ```javascript
