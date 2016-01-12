@@ -5,7 +5,8 @@
   "main": "build/react-8.js",
   "scripts": {
     "build": "webpack && webpack -p --minify",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,15 @@
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "chai": "^3.4.1",
+    "chai-spies": "^0.7.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.1",
+    "karma-mocha-reporter": "^1.1.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.6",
     "webpack": "^1.12.11"
   },
   "dependencies": {
