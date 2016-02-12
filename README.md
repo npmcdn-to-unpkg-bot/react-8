@@ -8,7 +8,7 @@ Simple, lightweight, universal component for infinite scrolling.
 
 ##Demo
 
-[See here.](http://vahagnaharonian.github.io/react-8/demo/)
+[See here.](http://vahnag.github.io/react-8/demo/)
 
 ##Example
 
